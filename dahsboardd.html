@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puro Parking - Parking de alta seguridad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+
+    </style>
+</head>
+
+<body class="bg-gray-50 font-sans">
+    <div class="flex h-screen overflow-hidden">
+        <!-- Vertical Tabs -->
+
+        <div class="w-24 md:w-64 bg-white shadow-lg flex flex-col">
+            <div class="p-4 bg-blue-600 text-white text-center">
+                <h1 class="text-xl md:text-2xl font-bold">PURO PARKING</h1>
+                <p class="text-xs md:text-sm opacity-80">Parking de alta seguridad</p>
+            </div>
+
+            <nav class="flex-1 overflow-y-auto py-4">
+                <div class="tab-item active flex flex-col items-center md:flex-row md:px-6 md:py-3 cursor-pointer transition-colors duration-200"
+                    data-tab="home">
+                    <div class="tab-icon text-blue-600 mb-1 md:mb-0 md:mr-3 text-xl">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <span class="text-xs md:text-base">Inicio</span>
+                </div>
+
+                <div class="tab-item flex flex-col items-center md:flex-row md:px-6 md:py-3 cursor-pointer transition-colors duration-200"
+                    data-tab="services">
+                    <div class="tab-icon text-gray-600 mb-1 md:mb-0 md:mr-3 text-xl">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <span class="text-xs md:text-base">Registro del vehiculo</span>
+                </div>
+
+                <div class="tab-item flex flex-col items-center md:flex-row md:px-6 md:py-3 cursor-pointer transition-colors duration-200"
+                    data-tab="rates">
+                    <div class="tab-icon text-gray-600 mb-1 md:mb-0 md:mr-3 text-xl">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <span class="text-xs md:text-base">Precios</span>
+                </div>
+
+                <div class="tab-item flex flex-col items-center md:flex-row md:px-6 md:py-3 cursor-pointer transition-colors duration-200"
+                    data-tab="reservation">
+                    <div class="tab-icon text-gray-600 mb-1 md:mb-0 md:mr-3 text-xl">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <span class="text-xs md:text-base">Reservas/Consultas</span>
+                </div>
+
+                <div class="tab-item flex flex-col items-center md:flex-row md:px-6 md:py-3 cursor-pointer transition-colors duration-200"
+                    data-tab="contact">
+                    <div class="tab-icon text-gray-600 mb-1 md:mb-0 md:mr-3 text-xl">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <span class="text-xs md:text-base">Reporte de situacion</span>
+                </div>
+
+                <center><IMG SRC="imagenes/PARKING.jpg" WIDTH="300" HEIGHT="300">
+
+                </center>
+            </nav>
+
+            <div class="p-4 border-t border-gray-200 text-center">
+                <div class="text-gray-600 text-xs md:text-sm">
+                    <p>Horario: 24/7</p>
+                    <p class="mt-1">Tel:+57 304 3400525</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 overflow-y-auto p-6 md:p-10">
+            <!-- Home Tab -->
+            <div id="home" class="tab-content active">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-blue-600 mb-6">Bienvenido a Puro Parking</h2>
+
+                </div>
+
+</html>
